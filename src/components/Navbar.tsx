@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import { Menu, X, Phone } from "lucide-react";
 
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState<boolean>(false);
-  const [mobileMenu, setMobileMenu] = useState<boolean>(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [mobileMenu, setMobileMenu] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50);

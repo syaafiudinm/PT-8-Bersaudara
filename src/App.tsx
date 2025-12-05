@@ -4,11 +4,11 @@ import UrgencyBanner from "./components/UrgencyBanner";
 import PropertySpecs from "./components/PropertySpecs";
 import LocationAdvantage from "./components/LocationAdvantage";
 import PaymentScheme from "./components/PaymentScheme";
-import SiteplanGallery from "./components/SiteplanGallery";
+import SiteplanGallery from "./components/SitePlanGallery";
 import Testimonials from "./components/Testimonials";
 import LeadForm from "./components/LeadForm";
 import Footer from "./components/Footer";
-import WhatsAppFloat from "./components/WhatsAppFloat";
+import WhatsAppFloat from "./components/WhatsappFloat";
 import { useState } from "react";
 
 function App() {

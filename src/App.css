@@ -1,1 +1,29 @@
 @import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap");
+
+/* Swiper overrides */
+@import "swiper/css";
+@import "swiper/css/navigation";
+@import "swiper/css/pagination";
+
+@theme {
+    --color-primary: #0ea5e9;
+    --color-secondary: #f59e0b;
+
+    --font-family-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--color-primary) !important;
+}
+
+.swiper-pagination-bullet-active {
+    background: var(--color-primary) !important;
+}
