@@ -34,15 +34,6 @@ const testimonials: Testimonial[] = [
     unit: "Blok B-7",
   },
   {
-    name: "Ahmad Fauzi",
-    role: "Wiraswasta",
-    avatar: "/avatar3.jpg",
-    rating: 5,
-    text: "Ini rumah pertama saya. Proses booking cepat, cukup 500rb saja. Cicilan ringan, cocok untuk keluarga muda. Lingkungan aman dan tetangga ramah-ramah.",
-    date: "Juli 2024",
-    unit: "Blok C-15",
-  },
-  {
     name: "Dewi Lestari",
     role: "PNS",
     avatar: "/avatar4.jpg",
@@ -79,31 +70,6 @@ export default function Testimonials() {
             50+ keluarga sudah mempercayakan hunian mereka di Menara Limboto
           </p>
         </motion.div>
-
-        {/* Trust Stats */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-4xl mx-auto mb-16">
-          {[
-            { value: "50+", label: "Keluarga Bahagia" },
-            { value: "4.9/5", label: "Rating Kepuasan" },
-            { value: "95%", label: "Repeat Customer" },
-            { value: "100%", label: "Serah Terima Tepat Waktu" },
-          ].map((stat, idx) => (
-            <motion.div
-              key={idx}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: idx * 0.1 }}
-              className="text-center p-6 bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl"
-            >
-              <p className="text-4xl font-bold text-primary mb-2">
-                {stat.value}
-              </p>
-              <p className="text-sm text-gray-600 font-medium">{stat.label}</p>
-            </motion.div>
-          ))}
-        </div>
-
         {/* Testimonial Carousel */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -172,27 +138,6 @@ export default function Testimonials() {
               </SwiperSlide>
             ))}
           </Swiper>
-        </motion.div>
-
-        {/* Video Testimonial CTA */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mt-16 max-w-3xl mx-auto bg-gradient-to-br from-primary to-blue-700 rounded-3xl p-8 md:p-12 text-center text-white"
-        >
-          <h3 className="text-3xl font-bold mb-4">
-            Ingin Lihat Video Testimoni?
-          </h3>
-          <p className="text-white/90 mb-8 text-lg">
-            Dengar langsung pengalaman penghuni kami melalui video testimoni
-          </p>
-          <a
-            href="https://wa.me/6282187654321?text=Halo%20saya%20ingin%20melihat%20video%20testimoni%20Menara%20Limboto"
-            className="inline-block bg-secondary hover:bg-amber-500 text-white px-8 py-4 rounded-xl font-bold text-lg transition-all transform hover:scale-105 shadow-xl"
-          >
-            Minta Video Testimoni
-          </a>
         </motion.div>
       </div>
     </section>

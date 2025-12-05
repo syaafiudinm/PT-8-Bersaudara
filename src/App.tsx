@@ -1,6 +1,6 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import UrgencyBanner from "./components/UrgencyBanner";
+// import UrgencyBanner from "./components/UrgencyBanner";
 import PropertySpecs from "./components/PropertySpecs";
 import LocationAdvantage from "./components/LocationAdvantage";
 import PaymentScheme from "./components/PaymentScheme";
@@ -9,14 +9,14 @@ import Testimonials from "./components/Testimonials";
 import LeadForm from "./components/LeadForm";
 import Footer from "./components/Footer";
 import WhatsAppFloat from "./components/WhatsappFloat";
-import { useState } from "react";
+// import { useState } from "react";
 
 function App() {
-  const [showUrgency, setShowUrgency] = useState(true);
+  // const [showUrgency, setShowUrgency] = useState(true);
 
   return (
     <div className="min-h-screen bg-white">
-      {showUrgency && <UrgencyBanner onClose={() => setShowUrgency(false)} />}
+      {/*{showUrgency && <UrgencyBanner onClose={() => setShowUrgency(false)} />}*/}
       <Navbar />
       <Hero />
       <PropertySpecs />

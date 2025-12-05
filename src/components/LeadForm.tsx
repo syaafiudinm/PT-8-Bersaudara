@@ -41,7 +41,7 @@ Pesan: ${formData.message || "-"}
 Booking Fee: Rp 500.000
     `.trim();
 
-    const waUrl = `https://wa.me/6282187654321?text=${encodeURIComponent(waMessage)}`;
+    const waUrl = `https://wa.me/6282190893801?text=${encodeURIComponent(waMessage)}`;
     window.open(waUrl, "_blank");
 
     setSubmitted(true);

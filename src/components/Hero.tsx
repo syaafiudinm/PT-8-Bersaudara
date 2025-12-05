@@ -48,7 +48,7 @@ export default function Hero() {
             <div className="grid grid-cols-3 gap-4 pt-4">
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                 <p className="text-3xl font-bold">36</p>
-                <p className="text-sm opacity-90">Luas Bangunan</p>
+                <p className="text-sm opacity-90">Type Bangunan</p>
               </div>
               <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 text-center">
                 <p className="text-3xl font-bold">2</p>
@@ -75,19 +75,6 @@ export default function Hero() {
                 Survey Lokasi Gratis
               </a>
             </div>
-
-            {/* Trust Badge */}
-            <div className="flex items-center gap-4 pt-4">
-              <div className="flex -space-x-3">
-                <div className="w-10 h-10 rounded-full bg-white/20 border-2 border-white" />
-                <div className="w-10 h-10 rounded-full bg-white/20 border-2 border-white" />
-                <div className="w-10 h-10 rounded-full bg-white/20 border-2 border-white" />
-              </div>
-              <div>
-                <p className="font-semibold">50+ Keluarga</p>
-                <p className="text-sm opacity-90">Sudah Menempati</p>
-              </div>
-            </div>
           </motion.div>
 
           {/* Right Image */}
@@ -99,7 +86,7 @@ export default function Hero() {
           >
             <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-6 shadow-2xl">
               <img
-                src="/hero-house.png"
+                src="/hero-house.jpg"
                 alt="Menara Limboto Type 36"
                 className="w-full rounded-2xl shadow-xl"
               />

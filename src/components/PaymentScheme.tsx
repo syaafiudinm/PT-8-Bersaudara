@@ -1,4 +1,4 @@
-import { CreditCard, CheckCircle2, AlertCircle } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import type { FC } from "react";
@@ -177,97 +177,6 @@ const PaymentScheme: FC = () => {
             </motion.div>
           ))}
         </div>
-
-        {/* Calculator */}
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="max-w-3xl mx-auto bg-white rounded-3xl p-8 shadow-xl"
-        >
-          <div className="flex items-center gap-3 mb-6">
-            <CreditCard className="w-8 h-8 text-primary" />
-            <h3 className="text-2xl font-bold text-gray-800">Simulasi KPR</h3>
-          </div>
-
-          {/* Inputs */}
-          <div className="space-y-4 mb-6">
-            <div className="grid md:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Harga Rumah
-                </label>
-                <input
-                  type="text"
-                  value="Rp 285.000.000"
-                  readOnly
-                  className="w-full px-4 py-3 bg-gray-100 rounded-xl font-semibold"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  DP (20%)
-                </label>
-                <input
-                  type="text"
-                  value="Rp 57.000.000"
-                  readOnly
-                  className="w-full px-4 py-3 bg-gray-100 rounded-xl font-semibold"
-                />
-              </div>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-4">
-              <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Tenor
-                </label>
-                <select className="w-full px-4 py-3 border-2 border-gray-200 rounded-xl font-semibold focus:border-primary focus:outline-none">
-                  <option>10 Tahun</option>
-                  <option>15 Tahun</option>
-                  <option>20 Tahun</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-sm font-semibold text-gray-700 mb-2">
-                  Bunga/Tahun
-                </label>
-                <input
-                  type="text"
-                  value="7.5%"
-                  readOnly
-                  className="w-full px-4 py-3 bg-gray-100 rounded-xl font-semibold"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Simulation Result */}
-          <div className="bg-gradient-to-br from-primary to-blue-600 rounded-2xl p-6 text-white">
-            <p className="text-sm opacity-90 mb-2">
-              Estimasi Cicilan Per Bulan
-            </p>
-            <p className="text-4xl font-bold mb-4">Rp 2.800.000</p>
-
-            <div className="flex items-start gap-2 text-sm bg-white/10 rounded-lg p-3">
-              <AlertCircle className="w-5 h-5 flex-shrink-0" />
-              <p className="opacity-90">
-                Simulasi ini adalah perkiraan. Cicilan aktual tergantung bank
-                yang dipilih.
-              </p>
-            </div>
-          </div>
-
-          <div className="mt-6 text-center">
-            <a
-              href="https://wa.me/6282187654321?text=Halo%20saya%20ingin%20konsultasi%20KPR%20untuk%20Menara%20Limboto"
-              className="inline-flex items-center gap-2 bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-xl font-bold transition-all"
-            >
-              <CreditCard className="w-5 h-5" />
-              Konsultasi KPR Gratis
-            </a>
-          </div>
-        </motion.div>
       </div>
     </section>
   );

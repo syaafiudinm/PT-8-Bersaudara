@@ -14,7 +14,7 @@ export default function WhatsAppFloat() {
   const handleClick = (): void => {
     setHasUnread(false);
     window.open(
-      "https://wa.me/6282187654321?text=Halo%20saya%20tertarik%20dengan%20Menara%20Limboto",
+      "https://wa.me/6282190893801?text=Halo%20saya%20tertarik%20dengan%20Menara%20Limboto",
       "_blank",
     );
   };
