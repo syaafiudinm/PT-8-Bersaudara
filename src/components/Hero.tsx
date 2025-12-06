@@ -86,7 +86,7 @@ export default function Hero() {
           >
             <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-6 shadow-2xl">
               <img
-                src="/hero-house.jpg"
+                src="/hero.jpeg"
                 alt="Menara Limboto Type 36"
                 className="w-full rounded-2xl shadow-xl"
               />

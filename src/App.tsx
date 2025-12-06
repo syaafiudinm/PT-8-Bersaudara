@@ -4,11 +4,10 @@ import Hero from "./components/Hero";
 import PropertySpecs from "./components/PropertySpecs";
 import LocationAdvantage from "./components/LocationAdvantage";
 import PaymentScheme from "./components/PaymentScheme";
-import SiteplanGallery from "./components/SitePlanGallery";
-import Testimonials from "./components/Testimonials";
+import SiteplanGallery from "./components/SiteplanGallery";
 import LeadForm from "./components/LeadForm";
 import Footer from "./components/Footer";
-import WhatsAppFloat from "./components/WhatsappFloat";
+import WhatsAppFloat from "./components/WhatsAppFloat";
 // import { useState } from "react";
 
 function App() {
@@ -23,7 +22,7 @@ function App() {
       <LocationAdvantage />
       <PaymentScheme />
       <SiteplanGallery />
-      <Testimonials />
+      {/*<Testimonials />*/}
       <LeadForm />
       <Footer />
       <WhatsAppFloat />

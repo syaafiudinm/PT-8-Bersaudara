@@ -132,12 +132,13 @@ const LocationAdvantage: FC = () => {
             </h3>
 
             <p className="text-lg text-gray-700 mb-6">
-              Jl. Menara Limboto, Kec. Limboto, Kab. Gorontalo, Gorontalo
+              PERUMAHAN MENARA LIMBOTO, TA, Kec. Tanete Riattang, Kabupaten
+              Bone, Sulawesi Selatan
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="https://maps.google.com"
+                href="https://www.google.com/maps/dir//-4.533337,120.342575/@-5.2214236,119.4991688,15z?entry=ttu&g_ep=EgoyMDI1MTIwMi4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 className="bg-primary hover:bg-blue-600 text-white px-8 py-3 rounded-xl font-semibold transition-all inline-flex items-center justify-center gap-2"
               >

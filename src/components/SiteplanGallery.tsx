@@ -9,32 +9,36 @@ import "swiper/swiper-bundle.css";
 interface GalleryImage {
   src: string;
   title: string;
-  category: "exterior" | "interior" | "siteplan" | "progress";
+  category: "exterior" | "siteplan" | "progress";
 }
 
 const images: GalleryImage[] = [
-  { src: "/hero-house.png", title: "Tampak Depan Rumah", category: "exterior" },
-  { src: "/siteplan.png", title: "Site Plan Perumahan", category: "siteplan" },
-  { src: "/interior-living.jpg", title: "Ruang Tamu", category: "interior" },
-  { src: "/interior-bedroom.jpg", title: "Kamar Tidur", category: "interior" },
-  { src: "/interior-kitchen.jpg", title: "Dapur", category: "interior" },
   {
-    src: "/progress-1.jpg",
+    src: "/hero-house.jpeg",
+    title: "Tampak Depan Rumah",
+    category: "exterior",
+  },
+  { src: "/siteplan.png", title: "Site Plan Perumahan", category: "siteplan" },
+  {
+    src: "/progress-1.jpeg",
     title: "Progress Pembangunan 1",
     category: "progress",
   },
   {
-    src: "/progress-2.jpg",
+    src: "/progress-2.jpeg",
     title: "Progress Pembangunan 2",
     category: "progress",
   },
-  { src: "/exterior-side.jpg", title: "Tampak Samping", category: "exterior" },
+  {
+    src: "/progress-3.jpeg",
+    title: "Progress Pembangunan 3",
+    category: "progress",
+  },
 ];
 
 const categories = [
   { value: "all", label: "Semua" },
   { value: "exterior", label: "Eksterior" },
-  { value: "interior", label: "Interior" },
   { value: "siteplan", label: "Site Plan" },
   { value: "progress", label: "Progress" },
 ];
