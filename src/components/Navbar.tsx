@@ -59,7 +59,7 @@ export default function Navbar() {
               Gallery
             </a>
             <a
-              href="https://wa.me/6282187654321?text=Halo%20saya%20tertarik%20dengan%20Menara%20Limboto"
+              href="https://wa.me/6282304524230?text=Halo%20saya%20tertarik%20dengan%20Menara%20Limboto"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-gradient-to-r from-primary to-cyan-600 text-white px-6 py-2.5 rounded-full font-semibold flex items-center gap-2 hover:shadow-lg transform hover:scale-105 transition-all"
@@ -110,7 +110,7 @@ export default function Navbar() {
               Gallery
             </a>
             <a
-              href="https://wa.me/6282187654321"
+              href="https://wa.me/6282304524230"
               className="block bg-primary text-white px-6 py-2.5 rounded-full font-semibold text-center"
             >
               Hubungi Kami

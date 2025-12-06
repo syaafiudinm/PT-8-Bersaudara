@@ -147,7 +147,7 @@ const LocationAdvantage: FC = () => {
               </a>
 
               <a
-                href="https://wa.me/6282187654321?text=Halo%20saya%20ingin%20survey%20lokasi%20Menara%20Limboto"
+                href="https://wa.me/6282304524230?text=Halo%20saya%20ingin%20survey%20lokasi%20Menara%20Limboto"
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-3 rounded-xl font-semibold transition-all"
               >
                 Jadwalkan Survey Lokasi
