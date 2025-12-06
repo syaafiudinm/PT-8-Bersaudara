@@ -90,20 +90,6 @@ export default function Hero() {
                 alt="Menara Limboto Type 36"
                 className="w-full rounded-2xl shadow-xl"
               />
-
-              {/* Floating Price Card */}
-              <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-2xl p-6 max-w-xs">
-                <p className="text-gray-600 text-sm mb-1">Harga Mulai Dari</p>
-                <p className="text-3xl font-bold text-primary mb-2">
-                  Rp 285 Juta
-                </p>
-                <p className="text-sm text-gray-600">
-                  Cicilan mulai{" "}
-                  <span className="font-bold text-secondary">
-                    2.8 juta/bulan
-                  </span>
-                </p>
-              </div>
             </div>
           </motion.div>
         </div>

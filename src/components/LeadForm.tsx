@@ -115,20 +115,7 @@ Booking Fee: Rp 500.000
                     <CheckCircle className="w-5 h-5 text-white" />
                   </div>
                   <div>
-                    <p className="font-bold text-lg">
-                      Gratis Biaya Administrasi
-                    </p>
-                    <p className="text-white/80">Hemat hingga Rp 5 juta</p>
-                  </div>
-                </div>
-
-                <div className="flex items-start gap-3">
-                  <div className="w-8 h-8 bg-secondary rounded-full flex items-center justify-center flex-shrink-0">
-                    <CheckCircle className="w-5 h-5 text-white" />
-                  </div>
-                  <div>
                     <p className="font-bold text-lg">Gratis Survey Lokasi</p>
-                    <p className="text-white/80">Antar jemput dari rumah</p>
                   </div>
                 </div>
 
@@ -138,15 +125,8 @@ Booking Fee: Rp 500.000
                   </div>
                   <div>
                     <p className="font-bold text-lg">Gratis Konsultasi KPR</p>
-                    <p className="text-white/80">Dibantu sampai akad kredit</p>
                   </div>
                 </div>
-              </div>
-
-              <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6">
-                <p className="text-sm text-white/80 mb-2">Tinggal</p>
-                <p className="text-5xl font-bold text-secondary mb-2">5 Unit</p>
-                <p className="text-white/90">Promo berakhir 31 Desember 2025</p>
               </div>
             </motion.div>
 

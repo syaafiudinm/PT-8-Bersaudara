@@ -1,11 +1,4 @@
-import {
-  MapPin,
-  Phone,
-  Mail,
-  Instagram,
-  Facebook,
-  Youtube,
-} from "lucide-react";
+import { MapPin, Phone, Instagram, Facebook, Youtube } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -106,9 +99,10 @@ export default function Footer() {
                 <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
                 <div>
                   <p className="text-gray-400">
-                    Jl. Menara Limboto, Kec. Limboto
+                    PERUMAHAN MENARA LIMBOTO, TA, Kec. Tanete Riattang,
+                    Kabupaten Bone.
                     <br />
-                    Kab. Gorontalo, Gorontalo
+                    Sulawesi Selatan
                   </p>
                 </div>
               </li>
@@ -119,15 +113,6 @@ export default function Footer() {
                   className="text-gray-400 hover:text-primary transition-colors"
                 >
                   +62 821-8765-4321
-                </a>
-              </li>
-              <li className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-primary flex-shrink-0" />
-                <a
-                  href="mailto:info@pt8bersaudara.com"
-                  className="text-gray-400 hover:text-primary transition-colors"
-                >
-                  info@pt8bersaudara.com
                 </a>
               </li>
             </ul>
@@ -170,7 +155,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-            <p>© 2024 PT 8 Bersaudara. All rights reserved.</p>
+            <p>© 2025 PT 8 Bersaudara. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="#" className="hover:text-primary transition-colors">
                 Syarat & Ketentuan
